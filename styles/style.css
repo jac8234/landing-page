@@ -71,25 +71,28 @@ a{
 
 /* Images */
 .images {
-    min-height: 400px;
-}
-.img-header {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    padding-bottom: 75px;
+}
+.img-container {
+
+    display: flex;
+    flex-direction: column;
+    max-width: 795px;
     align-items: center;
     font-size: 36px;
     font-weight: bolder;
-    /* border-style: dashed; */
-    min-height: 100px;
 }
 .img-and-txt{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    min-width: 90px;
-    /* border-style: dashed; */
-    /* min-height: 600px; */
+    min-width: 775px;
 }
 .img-box {
     height: 150px;
@@ -107,14 +110,14 @@ a{
     text-align: center;
     font-size: 17px;
     padding-top: 5px;
-
+    
 }
 
 /* Quote */
 .quote {
     display: flex;
-    background-color: #E5E7EB;
     min-height: 400px;
+    background-color: #E5E7EB;
     justify-content: center;
     align-items: center;
 }

@@ -122,16 +122,63 @@ a{
     align-items: center;
 }
 .quote-txt {
+    background-color: #E5E7EB;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     max-width: 775px;
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
+
 }
 .quote-author {
     align-self: end;
     font-size: 26px;
     font-style: normal;
     font-weight: bold;
+}
+
+/* Call to action */
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 250px;
+}
+.sign-up-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 130px;
+    min-width: 975px;
+    justify-content: space-around;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+.call-to-action-txt {
+    font-size: 24px;
+}
+.call-to-action-sub-txt {
+    font-size: 14px;
+}
+.call-to-action-button {
+    font-size: 18px;
+    min-width: 150px;
+    max-height: 35px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    background-color: #3882F6;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 75px;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }

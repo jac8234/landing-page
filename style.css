@@ -1,0 +1,11 @@
+body, .header, ul{
+    display: flex;
+}
+
+ul{
+    justify-content: flex-end;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}

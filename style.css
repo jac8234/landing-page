@@ -89,12 +89,14 @@ html {
 
 .information h1{
     font-size: 36px;
+    font-weight: bolder;
 }
 
 .image-boxes{
     display: flex;
     justify-content: center;
     gap: 3em;
+    width: 800px;
 }
 
 .box{
@@ -116,4 +118,32 @@ html {
 
 .image-subtext{
     text-align: center;
+}
+
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;    
+    height: 400px;
+    /* width: 800px; */
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+.body{
+    color: #1F2937;
+    /* width: 800px; */
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.author{
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
 }

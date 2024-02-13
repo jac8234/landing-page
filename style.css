@@ -1,13 +1,13 @@
 html {
     box-sizing: border-box;
   }
-  
+
   *,
   *::before,
   *::after {
     box-sizing: inherit;
   }
-  
+
 
 .header, ul{
     display: flex;
@@ -18,7 +18,7 @@ html {
 .header{
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 30px 200px;
+    padding: 30px 200px 70px;
     height: 70px;
 }
 
@@ -31,29 +31,24 @@ html {
 }
 .hero{
     display: flex;
-    height: auto;
-    gap: 50px;
+    align-items: center;
     justify-content: space-between;
+    gap: 50px;
+    padding: 30px 200px 150px;
     background-color: #1F2937;
-    /* flex: 1; */
 }
 
 .hero-left{
-    color: white;
-    width: 50%;
-    margin: 0px;
-    padding: 75px 0 0 200px ;
+    flex: 1;
 }
 
 .main-text{
-    margin: 0;
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
 }
 
 .secondary-text{
-    margin: 0;
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -63,22 +58,15 @@ html {
     color: white;
     background-color: #3882F6;
     border-radius: 10px;
-    margin-top: 12px;
     padding: 5px 25px;
 }
 
-.hero-right{
-    width: 50%;
-    color: white;
-    flex: 1;
-    padding: 75px 200px 0 0;
-    align-self: center;
+.hero-right img{
+    height: 200px;
 }
 
-.placeholder{
-    /* height: 100%; */
-    padding: 100px 0;
-    background-color: gray;
-    margin: 0px;
-    text-align: center;
+.hero-right{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
 }

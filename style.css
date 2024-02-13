@@ -1,11 +1,22 @@
-body, .header, ul{
+.header, ul{
     display: flex;
+    align-items: center;
+    gap: 18px;
 }
 
-ul{
-    justify-content: flex-end;
+.header{
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 30px 200px;
+    height: 70px;
+}
+
+ a{
+    /* align-items: center; */
     list-style-type: none;
     text-decoration: none;
     margin: 0;
     padding: 0;
+    /* gap: 18px; */
+    color: white;
 }

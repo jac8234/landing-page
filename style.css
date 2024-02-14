@@ -127,7 +127,6 @@ html {
     justify-content: center;
     background-color: #E5E7EB;    
     height: 400px;
-    /* width: 800px; */
 }
 
 .quote{
@@ -137,13 +136,54 @@ html {
 }
 .body{
     color: #1F2937;
-    /* width: 800px; */
     font-size: 36px;
     font-weight: lighter;
 }
-
+width: 800px;
 .author{
     align-self: flex-end;
     font-size: 24px;
     font-weight: bold;
+}
+
+.call-section{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 300px;
+}
+
+.call-section p{
+    margin: 0;
+}
+
+.call-to-action{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #3882F6;
+}
+
+.right-cta{
+    color: white;
+}
+.main-rcta{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.sub-rcta{
+    font-size: 14px;
+    font-weight: lighter;
+
+}
+
+.call-to-action button{
+    color: white;
+    border-radius: 8px;
+    border-color: white;
+    padding: 5px 30px;
+    background-color: #3882F6;
 }
